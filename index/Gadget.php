@@ -90,7 +90,19 @@ class Gadget {
 	    	$this->icon = $icon;
 
 	}
-
+	
+	/** Returns the Cost of the gadget */
+	public function getCost()
+	{
+			return $this->cost;
+	}	
+	
+	/** Returns the Manufacturer of the gagdet */
+	public function getManufacturer()
+	{
+			return $this->manufacturer;
+	}	
+	
 	/** Returns the name of the gadget */
     public function getName()
 	{
