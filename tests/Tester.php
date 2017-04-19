@@ -31,7 +31,7 @@ class Tester extends PHPUnit_Framework_TestCase
     {
 
             $this->testSetup();
-            $this->assertEquals($this->test->getName(), "High-End Gaming");
+            $this->assertEquals($this->test->getName(), "High-End Gaming Laptop");
 
     }
 
