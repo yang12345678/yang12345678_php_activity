@@ -1,6 +1,6 @@
 <?php
 
-require_once '/cdep/index/Gadget.php';
+require_once(__DIR__.'/../index/Gadget.php');
 
 class localTester extends PHPUnit_Framework_TestCase
 {
