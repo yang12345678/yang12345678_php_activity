@@ -14,10 +14,10 @@ class databaseConnection {
 	public function __construct()
 	{
 
-	        $this->dbhost = 'db:3306';
+	        $this->dbhost = 'sql-db:3306';
 	        $this->dbname = 'Tester';
         	$this->dbuser = 'naman';
-        	$this->dbpass = 'chocolate';
+        	$this->dbpass = 'password';
 
 	}
 

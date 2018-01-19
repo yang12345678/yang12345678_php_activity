@@ -1,6 +1,6 @@
 <?php
 
-require_once '/cdep/index/databaseConnection.php';
+require_once(__DIR__.'/../index/databaseConnection.php');
 
 class Tester extends PHPUnit_Framework_TestCase
 {
