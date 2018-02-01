@@ -1,5 +1,5 @@
 
-This s the file that I want to use 
+This s the file that I want to use. 
 
 require_once
 include_once
