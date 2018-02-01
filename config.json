@@ -4,5 +4,6 @@
     "static",
     "unit",
     "integration",
+    "staging"
   ]
 }
