@@ -12,7 +12,7 @@
 	<div id="big_wrapper">
 
 
-	<header id="header">Get Yer Awesome Sauce Gadgets Here!</header>
+	<header id="header">Here For All Your Gadget Needs!</header>
 	<!-- Displaying the navigation bar -->
 	<nav id="navigation">
 		<ul>Home</ul>
