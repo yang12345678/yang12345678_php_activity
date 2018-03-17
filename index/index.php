@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Gadget</title>
+<title>Herro!</title>
 <link rel="stylesheet" href="main.css">
 </head>
 
