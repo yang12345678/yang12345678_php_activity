@@ -14,7 +14,7 @@ class databaseConnection {
 	public function __construct()
 	{
 
-	        $this->dbhost = 'http://52.207.183.132/php-db';
+	        $this->dbhost = 'php-db';
 	        $this->dbname = 'Tester';
         	$this->dbuser = 'naman';
         	$this->dbpass = 'password';
