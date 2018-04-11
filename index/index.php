@@ -4,7 +4,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Changing stoof</title>
+<title>Gadgets</title>
 <link rel="stylesheet" href="main.css">
 </head>
 
