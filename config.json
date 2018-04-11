@@ -1,7 +1,6 @@
 {
   "language": "php",
   "stages": [
-    "checkout",
     "static",
     "unit",
     "integration",
