@@ -3,6 +3,6 @@
   "stages": [
     "static",
     "unit",
-    "Deploy"
+    "deploy"
   ]
 }
