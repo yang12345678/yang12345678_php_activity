@@ -28,7 +28,7 @@ class databaseConnection {
 	    try
 		{
 
-	        $this->conn = new PDO("mysql:host=$this->dbhost;dbname=$this->dbname", $this->dbuser, $this->dbpass);
+	        $this->conn = new PDO("mysql:host=$this->dbhost;port=8889;dbname=$this->dbname", $this->dbuser, $this->dbpass);
 
         }
 		catch(Exception $e)
