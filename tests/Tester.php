@@ -2,7 +2,7 @@
 
 require_once(__DIR__.'/../index/databaseConnection.php');
 
-class Tester extends PHPUnit_Framework_TestCase
+class Tester extends \PHPUnit\Framework\TestCase
 {
 
     public $test;
