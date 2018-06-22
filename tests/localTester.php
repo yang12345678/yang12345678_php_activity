@@ -1,6 +1,6 @@
 <?php
 
-require_once 'PHPUnit/Autoload.php';
+//require_once 'PHPUnit/Autoload.php';
 require_once(__DIR__.'/../index/Gadget.php');
 
 class localTester extends \PHPUnit\Framework\TestCase
