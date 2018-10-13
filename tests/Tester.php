@@ -31,12 +31,26 @@ class Tester extends \PHPUnit\Framework\TestCase
     {
 
             $this->testSetup();
-            $this->assertEquals($this->test->getName(), "Supercomputer");
+            $this->assertEquals($this->test->getName(), "High-End Gaming Laptop");
 
     }
 
     /** Implement the testCost method below */
+    public function testCost()
+    {
+
+            $this->testSetup();
+            $this->assertEquals($this->test->getCost(), "$1300");
+
+    }
     /** Implement the testManufacturer method below */
+    public function testManufacturer()
+    {
+
+            $this->testSetup();
+            $this->assertEquals($this->test->getManufacturer(), "Alienware");
+
+    }
 		
     /** Testing the image methods using the database */
     public function testImage()
