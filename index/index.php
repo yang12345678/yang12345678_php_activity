@@ -12,7 +12,7 @@
 	<div id="big_wrapper">
 
 
-	<header id="header">Ice cream has changed me</header>
+	<header id="header">Test header</header>
 	<!-- Displaying the navigation bar -->
 	<nav id="navigation">
 		<ul>Home</ul>
@@ -35,8 +35,13 @@
 	<!-- The left side bar's data -->
     <aside id="left_side">
         <ul><b>Type </b><br/><p><?php echo $G->getName(); ?></p></ul>
+
 		<!-- Add a ul element that displays the manufacturer of the current gadget. -->
+		<ul><b>Manufacturer </b><br/><p><?php echo $G->getManufacturer(); ?></p></ul>
+
 		<!-- Add a ul element that displays the cost of the current gadget. -->
+		<ul><b>Gadget Cost </b><br/><p><?php echo $G->getCost(); ?></p></ul>
+
         <ul><b>Amazon </b><br/><a href="<?php $G->getLink(); ?>"><?php echo $G->getModel(); ?></a></ul>
     </aside>
 
